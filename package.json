@@ -1,0 +1,40 @@
+{
+  "name": "remix-drizzle-vercel",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "build": "remix vite:build",
+    "dev": "remix vite:dev",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "@remix-run/node": "2.10.0",
+    "@remix-run/react": "2.10.0",
+    "@remix-run/server-runtime": "2.10.0",
+    "@vercel/analytics": "^1.2.2",
+    "@vercel/remix": "2.10.0",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.35.3",
+    "isbot": "^4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "2.10.0",
+    "@remix-run/eslint-config": "2.10.0",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "drizzle-kit": "^0.26.2",
+    "eslint": "^8.38.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.1.6",
+    "vite": "^5.1.0",
+    "vite-tsconfig-paths": "^4.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
+}
